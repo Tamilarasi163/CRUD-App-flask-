@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}Add Inventory{% endblock %}
+{% block content %}
+<h2>Add Inventory Item</h2>
+<form method="POST">
+    Name: <input type="text" name="name"><br>
+    Quantity: <input type="number" name="quantity"><br>
+    <input type="submit" value="Add">
+</form>
+{% endblock %}
